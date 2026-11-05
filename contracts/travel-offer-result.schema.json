@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RAHHAL Travel Offer Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "source_type", "status", "destination", "provider", "retrieved_at", "disclaimer"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["company_demo", "company_verified", "external_listing", "supplier_live_inventory", "estimated_itinerary", "general_information", "unavailable"]},
+    "status": {"enum": ["demo_only", "listed_unverified", "verified_available", "verified_unavailable", "on_request", "estimate_only", "unknown"]},
+    "destination": {"type": "string"},
+    "country": {"type": ["string", "null"]},
+    "provider": {"type": "string"},
+    "provider_url": {"type": ["string", "null"], "format": "uri"},
+    "title": {"type": ["string", "null"]},
+    "days": {"type": ["integer", "null"], "minimum": 1},
+    "nights": {"type": ["integer", "null"], "minimum": 0},
+    "price_amount": {"type": ["number", "null"], "minimum": 0},
+    "price_currency": {"type": ["string", "null"]},
+    "price_basis": {"type": ["string", "null"]},
+    "travel_dates": {"type": ["string", "null"]},
+    "inclusions": {"type": "array", "items": {"type": "string"}},
+    "exclusions": {"type": "array", "items": {"type": "string"}},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "verified_at": {"type": ["string", "null"], "format": "date-time"},
+    "disclaimer": {"type": "string"}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data_status": "DEMO_ONLY_NOT_LIVE_OFFERS",
+  "currency": "EGP",
+  "description_ar": "بيانات افتراضية قابلة للتعديل للتقييم والاختبار؛ الرحلات الأربع أمثلة وليس حدًا أقصى.",
+  "packages": [
+    {
+      "id": "pkg-hurghada-001", "slug": "hurghada-red-sea-escape", "destination": "Hurghada", "destination_ar": "الغردقة", "country": "Egypt", "type": "beach", "name_ar": "هروب للبحر الأحمر", "name_en": "Red Sea Escape", "days": 4, "nights": 3,
+      "price_per_person": 6500, "currency": "EGP", "pricing_basis": "per adult in double occupancy", "status": "demo_on_request",
+      "departure_city": "Cairo", "departure_dates": [], "seats_remaining": null, "booking_enabled": false,
+      "included_ar": ["مواصلات سياحية تجريبية", "إقامة 3 ليالٍ", "إفطار يومي", "جولة بحرية تجريبية"],
+      "excluded_ar": ["المصاريف الشخصية", "الأنشطة الاختيارية", "أي رسوم غير مذكورة"],
+      "itinerary_ar": ["اليوم الأول: وصول واستراحة", "اليوم الثاني: شاطئ ورحلة بحرية", "اليوم الثالث: وقت حر وأنشطة اختيارية", "اليوم الرابع: مغادرة"],
+      "tags": ["sea", "family", "snorkeling"], "disclaimer_ar": "عرض افتراضي للشرح فقط ولا يدل على وجود حجز أو سعر فعلي"
+    },
+    {
+      "id": "pkg-nubia-001", "slug": "nubia-heritage", "destination": "Nubia", "destination_ar": "النوبة", "country": "Egypt", "type": "culture", "name_ar": "تراث النوبة", "name_en": "Nubian Heritage", "days": 5, "nights": 4,
+      "price_per_person": 9200, "currency": "EGP", "pricing_basis": "per adult", "status": "demo_on_request",
+      "departure_city": "Cairo", "departure_dates": [], "seats_remaining": null, "booking_enabled": false,
+      "included_ar": ["انتقالات داخلية تجريبية", "إقامة 4 ليالٍ", "زيارة قرية نوبية", "جولة ثقافية"],
+      "excluded_ar": ["المشتريات", "الأنشطة الاختيارية", "أي رسوم غير مذكورة"],
+      "itinerary_ar": ["اليوم الأول: الوصول لأسوان", "اليوم الثاني: زيارة قرية نوبية", "اليوم الثالث: جولة نيلية", "اليوم الرابع: زيارة معالم ثقافية", "اليوم الخامس: العودة"],
+      "tags": ["culture", "heritage", "nile"], "disclaimer_ar": "عرض افتراضي للشرح فقط ولا يدل على وجود حجز أو سعر فعلي"
+    },
+    {
+      "id": "pkg-sharm-001", "slug": "sharm-sinai-paradise", "destination": "Sharm El Sheikh", "destination_ar": "شرم الشيخ", "country": "Egypt", "type": "beach", "name_ar": "جنة سيناء", "name_en": "Sinai Paradise", "days": 4, "nights": 3,
+      "price_per_person": 7800, "currency": "EGP", "pricing_basis": "per adult", "status": "demo_on_request",
+      "departure_city": "Cairo", "departure_dates": [], "seats_remaining": null, "booking_enabled": false,
+      "included_ar": ["مواصلات تجريبية", "إقامة 3 ليالٍ", "شاطئ وأنشطة ترفيهية ضمن البرنامج التجريبي"],
+      "excluded_ar": ["الرياضات الاختيارية", "النفقات الشخصية"],
+      "itinerary_ar": ["اليوم الأول: استقبال ووصول", "اليوم الثاني: استجمام", "اليوم الثالث: أنشطة اختيارية", "اليوم الرابع: عودة"],
+      "tags": ["sea", "resort", "relaxation"], "disclaimer_ar": "عرض افتراضي للشرح فقط ولا يدل على وجود حجز أو سعر فعلي"
+    },
+    {
+      "id": "pkg-fayoum-001", "slug": "fayoum-desert-adventure", "destination": "Fayoum", "destination_ar": "الفيوم", "country": "Egypt", "type": "adventure", "name_ar": "مغامرة الفيوم", "name_en": "Fayoum Desert Adventure", "days": 2, "nights": 1,
+      "price_per_person": 3200, "currency": "EGP", "pricing_basis": "per adult", "status": "demo_on_request",
+      "departure_city": "Cairo", "departure_dates": [], "seats_remaining": null, "booking_enabled": false,
+      "included_ar": ["انتقال تجريبي", "إقامة ليلة", "زيارة وادي الريان", "تجربة صحراوية مخططة"],
+      "excluded_ar": ["الباجي الاختياري", "المصاريف الشخصية"],
+      "itinerary_ar": ["اليوم الأول: وادي الريان وجولة صحراوية", "اليوم الثاني: جولة خفيفة والعودة"],
+      "tags": ["desert", "nature", "budget"], "disclaimer_ar": "عرض افتراضي للشرح فقط ولا يدل على وجود حجز أو سعر فعلي"
+    }
+  ]
+}

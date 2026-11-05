@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "lib": ["es2024", "dom", "dom.iterable"], "types": ["node"] },
+  "include": ["./console.spec.ts", "../playwright.config.ts", "../e2e-live/live-ui.spec.ts", "../playwright.live.config.ts"]
+}

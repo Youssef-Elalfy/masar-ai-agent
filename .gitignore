@@ -1,0 +1,47 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+coverage/
+.playwright/
+*.log
+.DS_Store
+.cache/
+.tmp/
+
+# Release hygiene (audit 2026-11-05)
+# Raw QA output: screenshots, recordings, Playwright traces, live-check JSON and server logs (large, environment-specific).
+reports/
+test-results/
+playwright-report/
+# Local tool state and caches (contain absolute local paths).
+.impeccable/
+.claude/
+# Personal recordings and scratch data.
+.tmp/
+*.webm
+*.wav
+*.m4a
+
+# Publication scope (GitHub release 2026-11-05): private or internal material stays local.
+# Personal voice recordings (tests use generated audio only).
+tests/audio/
+*.mp3
+*.ogg
+*.flac
+# Internal development instructions, prompts, specs and machine audit.
+CLAUDE.md
+prompts/
+deliverables/
+design/
+ENVIRONMENT_AUDIT.md
+README_WINDOWS_AR.txt
+docs/09_CLAUDE_TEAM_AND_TOOLING.md
+# Archives, dumps and local databases.
+*.zip
+*.dump
+*.backup
+*.sql.gz
+*.sqlite

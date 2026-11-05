@@ -1,0 +1,14 @@
+{
+  "id": "rahhal-ai-demo-company",
+  "name": "RAHHAL AI Travel",
+  "name_ar": "رحّال AI للسياحة",
+  "fictional": true,
+  "status": "DEMO_ONLY_NOT_A_REAL_AGENCY",
+  "default_language": "ar-EG",
+  "supported_languages": ["ar-EG", "ar", "en"],
+  "default_currency": "EGP",
+  "description_ar": "شركة سياحة افتراضية لأغراض مشروع جامعي. جميع البرامج والأسعار أدناه أمثلة وليست عروض حجز حقيقية.",
+  "contact": {"phone": null, "email": null, "website": null},
+  "actual_bookings_supported": false,
+  "lead_intake_supported_after_user_consent": true
+}
